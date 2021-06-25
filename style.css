@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+
+}
+h1, body{
+    margin: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+
+
+}
+header{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+header h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+header hr{
+    border: 3px solid #fff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+
+}
+header .cover{
+    background-color: rgba(14%, 16%, 26%, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+}
